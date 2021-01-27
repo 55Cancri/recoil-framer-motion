@@ -1,0 +1,24 @@
+globals:
+  node: true
+  jest: true
+
+parser: '@typescript-eslint/parser'
+
+extends:
+  # duplicating parent allows file to stand on own
+  - plugin:import/typescript
+  # enforces good testing practices
+  - plugin:jest/recommended
+  # don't complain while importing React from 'react'
+  - plugin:react/recommended
+  # complain about dependencies
+  - plugin:react-hooks/recommended
+  # enforce accessibility
+  - plugin:jsx-a11y/recommended
+  # adds some stylistic rules, such as prefer-to-be-null,
+  # which enforces usage of toBeNull over toBe(null)
+  - plugin:jest/style
+
+rules:
+  semi: 0
+  react/prop-types: 0
