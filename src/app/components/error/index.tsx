@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import React from "react";
 import { atom } from "recoil";
-import { jsx } from "@emotion/core";
+import { jsx } from "@emotion/react";
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import * as resets from "../../../shared/styles/resets";

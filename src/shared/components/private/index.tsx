@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import React from "react";
-import { jsx } from "@emotion/core";
+import { jsx } from "@emotion/react";
 import { motion } from "framer-motion";
 import * as variants from "../../styles/variants";
 import * as colors from "../../styles/colors";

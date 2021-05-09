@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import React from "react";
-import { jsx } from "@emotion/core";
+import { jsx } from "@emotion/react";
 import { Link, useHistory } from "react-router-dom";
 
 import * as colors from "../../../../../shared/styles/colors";
@@ -48,7 +48,7 @@ export const Header: React.FC = () => {
           }}
           onClick={() => !/^\/$/i.test(pathname) && history.push("/")}
         >
-          soluna
+          boilerplate
         </p>
         <div
           css={{

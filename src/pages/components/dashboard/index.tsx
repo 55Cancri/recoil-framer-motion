@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import React from "react";
-import { jsx } from "@emotion/core";
+import { jsx } from "@emotion/react";
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
